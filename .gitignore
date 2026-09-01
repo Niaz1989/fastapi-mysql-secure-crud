@@ -5,3 +5,16 @@ venv/
 .venv/
 uploaded_images/
 .idea/
+database.db
+db.database
+depend.py
+depend_1.py
+main.py
+query.py
+random_practice.py
+request_body.py
+response.py
+security.py
+security_1.py
+sql.py
+sql_1.py
