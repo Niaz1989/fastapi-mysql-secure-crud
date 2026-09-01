@@ -244,6 +244,7 @@ async def upload(file: UploadFile = File(...),
 
     user.profile_pic=unique_file_name
     db.commit()
+
     db.refresh(user)
 
     return {"msg":"Upload have been successfully done",
